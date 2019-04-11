@@ -2,8 +2,11 @@
 nginx loadbalancer with flask backend servers
 
 RUN THESE COMMANDS:
+
 git clone https://github.com/tsachikotek/nginx_loadbalancer.git
+
 CD nginx_loadbalancer
+
 docker-compose up --build
 
 docker ps
