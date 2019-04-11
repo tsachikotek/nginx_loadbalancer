@@ -7,7 +7,7 @@ CD nginx_loadbalancer
 docker-compose up --build
 
 docker ps
-docker ps
+
 CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS              PORTS                            NAMES
 5f186cba3ce5        nginx_loadbalancer_loadbalancer   "nginx -g 'daemon of…"   4 minutes ago       Up 4 minutes        80/tcp, 0.0.0.0:8080->8080/tcp   nginx_loadbalancer_loadbalancer_1_49a4c0def6f6
 122d9ef23544        nginx_loadbalancer_backend3       "python app.py"          4 minutes ago       Up 4 minutes                                         nginx_loadbalancer_backend3_1_3b642aa7ffb5
